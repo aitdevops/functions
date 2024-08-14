@@ -1,0 +1,13 @@
+{
+    "name": "sendApprovalEmail",
+    "version": "1.0.0",
+    "main": "index.js",
+    "engines": {
+      "node": ">=18"
+    },
+    "dependencies": {
+      "nodemailer": "^6.7.2",
+      "pg": "^8.7.1"
+    }
+  }
+  
