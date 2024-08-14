@@ -10,7 +10,7 @@ exports.sendApprovalEmail = async (req, res) => {
         service: 'gmail',
         auth: {
             user: 'rajeevkoppisetti21@gmail.com',
-            pass: 'Rajeev@9119',  // Use an app password for Gmail
+            pass: 'fzxz bheo osrp lybc',  // Use an app password for Gmail
         },
     });
 
