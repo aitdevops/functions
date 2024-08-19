@@ -14,7 +14,7 @@ exports.sendApprovalEmail = async (req, res) => {
         },
     });
 
-    const approvalLink = `https://aitdevops.com/approval/${userId}`;
+    const approvalLink = `https://approval.aitdevops.com/approve/${userId}`;
 
     const mailOptions = {
         from: 'rajeevkoppisetti21@gmail.com',
