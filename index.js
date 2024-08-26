@@ -9,8 +9,8 @@ exports.sendApprovalEmail = async (req, res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'rajeevkoppisetti21@gmail.com',
-            pass: 'fzxz bheo osrp lybc',  // Use an app password for Gmail
+            user: '@gmail.com',
+            pass: '',  // Use an app password for Gmail
         },
     });
 
